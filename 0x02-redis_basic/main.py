@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Main file to test the Cache class.
+Main file
 """
-
 import redis
-from exercise import Cache
+
+Cache = __import__('exercise').Cache
 
 cache = Cache()
 
